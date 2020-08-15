@@ -1,5 +1,5 @@
 # nmpc_pc_learning
-Nonlinear model predictive controller (NMPC) codes for tracking the commanded reference trajectory. The incorporated NMPC expects the learned value of the disturbance parameters $F^{x_dist}$, $F^{y_dist}$, and $F^{z_dist}$. Besodes, the utilization of the disturbance parameters can be switched off by setting "use_dist_estimates" to "false" within the launch file.
+Nonlinear model predictive controller (NMPC) codes for tracking the commanded reference trajectory. The incorporated NMPC expects the learned value of the disturbance parameters $F^{x_dist}$, $F^{y_dist}$, and $F^{z_dist}$ (as illustrated in the following work). Besides, the utilization of the disturbance parameters can be switched off by setting "use_dist_estimates" to "false" within the launch file.
 
 This NMPC code is utilized for the following work. Please don't forget to cite if you use this code in your work.
 
