@@ -1,7 +1,10 @@
 # nmpc_pc_learning
-Nonlinear model predictive controller (NMPC) codes for tracking the commanded reference trajectory. The incorporated NMPC expects the learned value of the disturbance parameters $F^{x_dist}$, $F^{y_dist}$, and $F^{z_dist}$ (as illustrated in the following work). Besides, the utilization of the disturbance parameters can be switched off by setting "use_dist_estimates" to "false" within the launch file.
+The nonlinear model predictive controller (NMPC) package. The resulting NMPC tracks a reference position trajectory. Besides, it expects the learned values for the disturbance parameters $F^{x_dist}$, $F^{y_dist}$, and $F^{z_dist}$ (as illustrated in the following work). Moreover, the following Gaussian process regression package can be utilized for learning the required disturbance parameters:\
+[wind_gp_regression](https://github.com/mohit004/wind_gp_regression): A Gaussian process regression package.
 
-This NMPC code is utilized for the following work. Please don't forget to cite if you use this code in your work.
+**Note:** the utilization of the disturbance parameters can be switched off by setting "use_dist_estimates" to "false" within the launch file. 
+
+This NMPC package is utilized in the following work. Please don't forget to cite it if you use these code in your work.
 
 **Plain text:**
 ```
