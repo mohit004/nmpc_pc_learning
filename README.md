@@ -4,7 +4,8 @@ Moreover, the following regression packages can be utilized for learning the req
 [wind_nmhe_regression](https://github.com/mohit004/wind_nmhe_regression): A nonlinear moving horizon estimation-based regression package.\
 [wind_gp_regression](https://github.com/mohit004/wind_gp_regression): A Gaussian process-based regression package.\
 
-Moreover, the following package can be used to command the reference trajectory:\
+Moreover, the following packages can be used to command the reference trajectory:\
+[m100_trajectory](https://github.com/mohit004/m100_trajectory): A ROS package to generate reference trajectory to traverse a wall.\
 [trajectories](https://github.com/mohit004/trajectories): A ROS package to generate reference trajectories.
 
 **Note:** the utilization of the disturbance parameters can be switched off by setting "use_dist_estimates" to "false" within the launch file. 
