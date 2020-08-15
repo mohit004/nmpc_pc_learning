@@ -9,7 +9,7 @@ Moreover, the following package can be used to command the reference trajectory:
 
 **Note:** the utilization of the disturbance parameters can be switched off by setting "use_dist_estimates" to "false" within the launch file. 
 
-This NMPC package is utilized in the following work. Please don't forget to consider citing it if you use these code in your work.
+This NMPC package is utilized in the following work. Please don't forget to consider citing it if you use these codes in your work.
 
 **Plain text:**
 ```
